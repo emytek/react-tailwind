@@ -1,0 +1,35 @@
+img {
+    width: 70%;
+    margin-top: 1.5rem;;
+    border-radius: 4%;
+}
+.container {
+    width: 100%;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.text-6xl,
+.text-5xl {
+    font-size: 3.75rem;
+}
+
+.text-center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
